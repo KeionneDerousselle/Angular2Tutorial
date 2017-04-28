@@ -1,0 +1,2 @@
+proxy=http://username:password@proxy1.com:8080/
+http_proxy=http://username:password@proxy1.com:8080/
