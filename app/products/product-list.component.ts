@@ -13,7 +13,7 @@ import { ProductService } from './product.service';
 export class ProductListComponent implements OnInit{
     pageTitle: string = 'Our Products';
     imageWidth: number = 50;
-    imageMargin: number =2;
+    imageMargin: number = 2;
     showImage: boolean = false;
     listFilter: string = '';
     errorMessage: string;
