@@ -19,8 +19,7 @@ export class ProductListComponent implements OnInit{
     errorMessage: string;
     products: IProduct[] =[];
 
-    constructor(private _productService: ProductService){
-    }
+    constructor(private _productService: ProductService){}
 
     ngOnInit(): void{
        
