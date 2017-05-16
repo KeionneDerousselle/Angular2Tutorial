@@ -8,7 +8,7 @@ import { ProductService } from './product.service';
     templateUrl: 'product-detail.component.html'
 })
 export class ProductDetailComponent implements OnInit{
-    pageTitle: string = 'Product Detail';
+    pageTitle: string;
     product: IProduct;
     errorMessage: string;
 
@@ -28,6 +28,6 @@ export class ProductDetailComponent implements OnInit{
     }
 
     onRatingClicked(message: string): void {
-        this.pageTitle = 'Our Products: ' + message;
+        this.pageTitle = message;
     }
 }
